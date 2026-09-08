@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, Cambria, serif;
+  --font-sans: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  --color-hotel-bg: #F8F6F1;
+  --color-hotel-surface: #FFFFFF;
+  --color-hotel-text: #1D1D1B;
+  --color-hotel-muted: #68645D;
+  --color-hotel-gold: #B08A4A;
+  --color-hotel-gold-hover: #9A753B;
+  --color-hotel-dark: #171717;
+  --color-hotel-dark-card: #242424;
+  --color-hotel-border: #E5E0D7;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: #F8F6F1;
+    color: #1D1D1B;
+    overflow-x: hidden;
+  }
+  
+  h1, h2, h3, h4, .font-serif {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F8F6F1;
+}
+::-webkit-scrollbar-thumb {
+  background: #D8D2C6;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B08A4A;
+}

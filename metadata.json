@@ -1,0 +1,6 @@
+{
+  "name": "Hotel Sharda Bilaspur",
+  "description": "Premium hotel website for Hotel Sharda in Telipara, Bilaspur, Chhattisgarh featuring rooms, amenities, dining, location directions, and direct WhatsApp booking enquiry.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
